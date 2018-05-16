@@ -6,17 +6,18 @@ package com.vss.sorting.selection;
 /**
  * @author sattarwa
  * 
- *         <pre>
-* 1. Divides array in two groups - sorted and unsorted
-* 2. each iteration adds minimum value in sorted section at the end of section
-* 3. best & worst case time complexity O(n^2), space complexity O(n)
-* 4. effective for small set of data
-* 5. Bingo sort is special case of selection sort
-* 6. sorting happens in memory
-* 7. it has quadratic order of growth (n^2)
-* 8. efficiency is same as bubble sort
- *
- *         </pre>
+ *         <ul>
+	 *         <li>Divides array in two groups - sorted and unsorted</li>
+	 *         <li>each iteration adds minimum value in sorted section at the end of
+	 *         section</li>
+	 *         <li>best & worst case time complexity O(n^2), space complexity
+	 *         O(n)</li>
+	 *         <li>effective for small set of data</li>
+	 *         <li>Bingo sort is special case of selection sort</li>
+	 *         <li>sorting happens in memory</li>
+	 *         <li>it has quadratic order of growth (n^2)</li>
+ *         <li>efficiency is same as bubble sort</li>
+ *         </ul>
  */
 
 public class SelectionSort {
